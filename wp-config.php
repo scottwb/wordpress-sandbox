@@ -80,6 +80,15 @@ define('WPLANG', '');
  */
 define('WP_DEBUG', false);
 
+/**
+ * SWB: Turn of javascript concatenation. Apparently the PHP community has not
+ * figured out how to do that right yet and it breaks some pages. See:
+ *
+ *   http://wordpress.org/support/topic/35-causing-major-jquery-and-javascript-errors
+ *   http://www.wpaustralia.org/topic/jquery-script-load-fail-on-wordpress-3-5/
+ */
+define('CONCATENATE_SCRIPTS', false);
+
 /* That's all, stop editing! Happy blogging. */
 
 /** Absolute path to the WordPress directory. */
